@@ -10,3 +10,7 @@ Usage: http://localhost:8181/primes/{ceiling}/?method={method}
 
 Where the ceiling is the highest possible prime number of the generated series
 and method is type of generator to use. The simple/basic generator is default, for parallel use ?method=parallel
+
+Response for a correctly formed request will be similar to:
+
+{"method":"parallel","ceiling":20,"primes":[2,3,5,7,11,13,17,19]}
